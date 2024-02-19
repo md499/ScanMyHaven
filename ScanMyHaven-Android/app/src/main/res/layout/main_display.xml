@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_theme_background"
+    tools:context=".MainDisplayActivity">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="79dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="52dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/house"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:hint="First Name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@id/editTextLastName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:hint="Last Name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/editTextFirstName"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="345dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:hint="email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextLastName" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="341dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:hint="password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLength="40"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmail" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitButton"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="60dp"
+        android:elevation="1dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Register Now!"
+        android:textSize="16sp"
+        app:cornerRadius="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/returnButton"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:elevation="1dp"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:text="Back to Login"-->
+<!--        android:textSize="16sp"-->
+<!--        app:cornerRadius="9dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/submitButton" />-->
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="Back to Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

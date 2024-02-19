@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="original_outline_elevation">0dp</dimen>
+    <dimen name="thicker_outline_elevation">12dp</dimen>
+</resources>

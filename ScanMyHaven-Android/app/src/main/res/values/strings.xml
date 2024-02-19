@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">S.M.H</string>
+    <string name="web_client_id"> 86814511792-q8e7p4bid333jb7tnvo3dimqrc4d91fo.apps.googleusercontent.com </string>
+    <string name="inspectisafe">S.M.H</string>
+    <string name="inspectisafe2">Scan.My.Haven </string>
+    <string name="username">email</string>
+    <string name="name">first name</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="register">Don\'t have an account? Register Today!</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="save_image">Save Image</string>
+    <string name="retrieve_image">Retrieve Image</string>
+    <string name="sign_out">Sign out</string>
+    <string name="pick_photo">Pick Photo</string>
+    <string name="take_picture"> Add Pictures to Dashboard </string>
+    <string name="main_title">Compliance Dashboard</string>
+    <string name="add_dashboard"> Upload </string>
+    <string name="back">Back To Dashboard</string>
+    <string name="no_image">No Spaces Submitted</string>
+    <string name="view_video">New Here? Click to learn more!</string>
+    <string name="non_compliant_spaces">Non-Compliant Spaces: %1$d</string>
+    <string name="total_messy_areas">Total Non-Compliant Spaces: %d</string>
+
+
+</resources>
