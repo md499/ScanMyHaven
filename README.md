@@ -1,6 +1,8 @@
 # ScanMyHaven
 
-## Our app is avaiable on the Play Store(https://play.google.com/store/apps/details?id=com.smh.finalproject&hl=en_US). Coming soon to App Store
+## Our app is avaiable on the Play Store(https://play.google.com/store/apps/details?id=com.smh.finalproject&hl=en_US). 
+
+Coming soon to App Store
 
 Team Members: Medha Dhir, Hemanshu Bhojwani, Maria Mercado
 
