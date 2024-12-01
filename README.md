@@ -1,4 +1,7 @@
 # ScanMyHaven
+
+## Our app is avaiable on the Play Store(https://play.google.com/store/apps/details?id=com.smh.finalproject&hl=en_US). Coming soon to App Store
+
 Team Members: Medha Dhir, Hemanshu Bhojwani, Maria Mercado
 
 Team Github:https://github.com/CS-501-TeamMSH/ScanMyHaven-Android
